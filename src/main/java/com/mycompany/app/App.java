@@ -1,4 +1,5 @@
 package com.mycompany.app;
+import java.util.Scanner; 
 
 /**
  * Hello world!
@@ -17,7 +18,7 @@ public class App
 	int a = scanner.nextInt();
 	System.out.println("Enter 2st number");
 	int b = scanner.nextInt();
-	System.out.println("Sum is " + a+b);
+	System.out.println("Sum is " + (a+b));
     }
 
     private final String getMessage() {
@@ -25,3 +26,4 @@ public class App
     }
 
 }
+
